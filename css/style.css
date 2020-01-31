@@ -1,0 +1,91 @@
+@media(max-width: 600px)
+{
+    #main{
+        width:100%;
+        float: none;
+    }
+    #sidebar{
+        width:100%;
+        float:none;
+    }
+}
+body{
+    background-color: lightgrey;
+    color: dimgrey;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.container-one{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+
+}
+#main-header{
+    background-color: dimgrey;
+    color: white;
+}
+#navbar{
+    background-color: lightgrey;
+    color: white;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: dimgrey;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#showcase{
+    background-image: url(../images/abstract.jpg);
+    min-height: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#showcase h1{
+    color: white;
+    font-family: Indie Flower, cursive;
+    font-size: 50px;
+    line-height: normal;
+}
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    flex: 4;
+}
+#main h1 {
+    font-size: xx-large;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background: dimgrey;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex: 1;
+}
+#main-footer{
+    background: dimgrey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
